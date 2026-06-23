@@ -24,13 +24,13 @@
 ## 구조
 
 ```
-agent-native-app/
+agent-native-app-harness/
 ├── .claude-plugin/
 │   └── plugin.json
 ├── docs/
 │   └── ana-concept.md                     # 개념 슬라이드 (Marp)
 └── skills/
-    ├── agent-native-app/                  # ★ ANA 하네스 스킬 (오케스트레이터)
+    ├── agent-native-app-harness/          # ★ ANA 하네스 스킬 (오케스트레이터)
     │   ├── SKILL.md
     │   └── references/
     │       ├── ana-architecture.md        # 구성도·데이터 흐름
@@ -43,7 +43,7 @@ agent-native-app/
 
 | 스킬 | 계층 | 역할 |
 |---|---|---|
-| [`agent-native-app`](skills/agent-native-app/) | **하네스(오케스트레이터)** | "무엇을·어떤 순서로 엮어 ANA를 짓는가"를 정의. 빌딩블록을 조립하고 진화 루프를 운영. |
+| [`agent-native-app-harness`](skills/agent-native-app-harness/) | **하네스(오케스트레이터)** | "무엇을·어떤 순서로 엮어 ANA를 짓는가"를 정의. 빌딩블록을 조립하고 진화 루프를 운영. |
 | [`uxui-design-system`](skills/uxui-design-system/) | 빌딩블록 (얼굴) | 의존성 0 토스 스타일 디자인 시스템 — 대시보드의 시각 맥락. |
 | [`fakechat-dashboard-agent`](skills/fakechat-dashboard-agent/) | 빌딩블록 (신경계) | 대시보드 + 채널 + 코딩 에이전트 배선 — watch+converse. |
 
@@ -61,7 +61,7 @@ cp -r skills/* ~/.claude/skills/
 "이 ANA에 음성 입력 추가해줘"        # 진화: 말 한 번으로 기능 추가
 ```
 
-`agent-native-app` 하네스 스킬이 트리거되어 도메인 1화면 정의 → 디자인 → 배선 → 진화 루프 순으로 ANA를 구축합니다. 절차 전문은 [`skills/agent-native-app/references/build-workflow.md`](skills/agent-native-app/references/build-workflow.md).
+`agent-native-app-harness` 하네스 스킬이 트리거되어 도메인 1화면 정의 → 디자인 → 배선 → 진화 루프 순으로 ANA를 구축합니다. 절차 전문은 [`skills/agent-native-app-harness/references/build-workflow.md`](skills/agent-native-app-harness/references/build-workflow.md).
 
 ## 사례 — "우리집 주간 계획표"
 

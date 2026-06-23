@@ -1,5 +1,5 @@
 ---
-name: agent-native-app
+name: agent-native-app-harness
 description: "Agent Native App (ANA) harness — build and evolve apps you operate by WATCHING a dashboard and CONVERSING with a coding agent that serves as the runtime. Use when the user wants to create an 'agent native app', 'ANA', '에이전트 네이티브 앱', a 'watch + converse' operating tool, a self-hosted personal/solopreneur operations app (schedule/metrics/orders/work-queue), a dashboard-agent they can grow by talking, or asks to scaffold/extend/evolve such an app. Also triggers on follow-ups: '다시 만들어', '대시보드 추가', '이 앱에 기능 추가', '말로 키운다', 'agent native app 하네스'. Orchestrates the building-block skills uxui-design-system + fakechat-dashboard-agent under one harness."
 ---
 
